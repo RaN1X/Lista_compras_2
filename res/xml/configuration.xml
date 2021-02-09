@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:key="categoria1"
+        android:title="Primera categoría">
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/codigomonedas"
+            android:entryValues="@array/codigomonedas"
+            android:key="list_preference_1"
+            android:title="Elige moneda" />
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/almacenamiento"
+            android:entryValues="@array/almacenamiento"
+            android:key="list_preference_2"
+            android:title="Elige almacenamiento" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
